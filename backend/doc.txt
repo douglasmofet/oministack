@@ -1,0 +1,36 @@
+Criando migrations
+npx knex migrate:make create_ongs
+http://knexjs.org/#Migrations
+
+Executando migrations 
+npx knex migrate:latest
+
+npx knex migrate:make create_ongs
+npx knex migrate:make create_incidents
+npx knex migrate:latest
+
+Rollback migrations - executa down
+npx knex migrate:rollback
+
+npx knex - exibe todos os comandos
+
+//deploy
+//hospedar
+//heroku - node.js
+//app cresceu DigitalOcean
+
+//react deploy
+//netlify
+
+//app
+//video expo canal
+
+//ESLING, Prettier - padrões de código
+//Autenticação JWT
+//Styled Components
+
+//app
+https://reactnavigation.org/docs/getting-started/
+
+//Validações controller
+https://hapi.dev/module/joi/
